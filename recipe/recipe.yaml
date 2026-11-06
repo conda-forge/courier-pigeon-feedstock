@@ -12,7 +12,7 @@ source:
   sha256: fe64cd2b547f9efcd4e0555e29530c5e447c8d758688e4478a0e7e748bb05acb
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
   python:
@@ -46,36 +46,36 @@ requirements:
     - boto3 >=1.26
     - botocore >=1.29
     - kafka-python >=2.0
-    - croniter *
+    - croniter
     - httpx >=0.24
     - docker-py >=7.0
-    - types-docker *
-    - sphinx *
-    - sphinx_rtd_theme *
-    - sphinx-argparse *
-    - sphinx-copybutton *
-    - sphinx-autodoc-typehints *
-    - sphinxcontrib-mermaid *
+    - types-docker
+    - sphinx
+    - sphinx_rtd_theme
+    - sphinx-argparse
+    - sphinx-copybutton
+    - sphinx-autodoc-typehints
+    - sphinxcontrib-mermaid
     - textual >=0.52.0
-    - myst-parser *
-    - pinkrst *
-    - doc8 *
-    - prettier *
-    - ruff *
-    - vulture *
-    - mypy *
-    - pytest *
-    - pytest-cov *
-    - pytest-timeout *
-    - pytest-xdist *
-    - pytest-mock *
-    - types-pyyaml *
-    - types-dateparser *
-    - fakeredis *
-    - hypothesis *
-    - mutmut *
-    - packaging *
-    - pre-commit *
+    - myst-parser
+    - pinkrst
+    - doc8
+    - prettier
+    - ruff
+    - vulture
+    - mypy
+    - pytest
+    - pytest-cov
+    - pytest-timeout
+    - pytest-xdist
+    - pytest-mock
+    - types-pyyaml
+    - types-dateparser
+    - fakeredis
+    - hypothesis
+    - mutmut
+    - packaging
+    - pre-commit
 
 tests:
   - python:
